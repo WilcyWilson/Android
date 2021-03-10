@@ -1,7 +1,7 @@
 # Run/install/debug Android applications over Wi-Fi
 1. Connect the device via USB and make sure USB Debugging is working. 
 2. In Terminal, type ```adb tcpip 5555 ```. This makes the device to start listening for connections on port 5555.
-3. Look up the device IP address with ```adb shell netcfg``` or ```console adb shell ifconfig``` with Android 6.0 or higher. Else just
+3. Look up the device IP address with ```adb shell netcfg``` or ```adb shell ifconfig``` with Android 6.0 or higher. Else just
    check your device settings to find your device's IP Address.
 4. You can disconnect the USB now.
 5. ```adb connect <DEVICE_IP_ADDRESS>:5555```. This connects to the server we set up on the device in step 2.
