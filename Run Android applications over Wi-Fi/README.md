@@ -1,4 +1,4 @@
-# Run/install/debug Android applications over Wi-Fi
+# Run/install/debug Android applications over Wi-Fi in Android Studio
 1. Connect the device via USB and make sure USB Debugging is working. 
 2. In Terminal, type ```adb tcpip 5555 ```. This makes the device to start listening for connections on port 5555.
 3. Look up the device IP address with ```adb shell netcfg``` or ```adb shell ifconfig``` with Android 6.0 or higher. Else just
